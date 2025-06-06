@@ -1,0 +1,36 @@
+/* style.css */
+
+/* Ajuste general */
+body {
+    font-size: 16px;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Personalización de la tarjeta */
+  .card-title {
+    font-weight: 600;
+  }
+  
+  /* Lista de ejercicios */
+  #rutina-list li {
+    font-size: 0.95rem;
+  }
+  
+  /* Placeholder para los gráficos */
+  .placeholder {
+    color: #6c757d;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  /* Responsive extra */
+  @media (max-width: 576px) {
+    header h1 {
+      font-size: 1.25rem;
+    }
+    .card-title {
+      font-size: 1.1rem;
+    }
+  }

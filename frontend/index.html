@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Rutina de Gym</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-light">
+  <header class="bg-dark text-white py-3 mb-4">
+    <div class="container text-center">
+      <h1 class="h3 mb-0">🏋️ Mi Dashboard de Rutina</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="row g-4">
+      <!-- Rutina del día -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Rutina del día</h5>
+            <ul id="rutina-list" class="list-group list-group-flush">
+              <li class="list-group-item"> <strong>Sentadilla</strong> - 10 reps - 60 kg</li>
+              <li class="list-group-item"> <strong>Press Banca</strong> - 8 reps - 50 kg</li>
+              <li class="list-group-item"> <strong>Remo con barra</strong> - 10 reps - 40 kg</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progreso -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Progreso</h5>
+            <div class="placeholder bg-secondary bg-opacity-25 d-flex align-items-center justify-content-center" style="height: 200px;">
+              Gráfico de progreso
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Asistencias -->
+      <div class="col-md-12 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Asistencias</h5>
+            <div class="placeholder bg-secondary bg-opacity-25 d-flex align-items-center justify-content-center" style="height: 200px;">
+              Gráfico de asistencia
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
